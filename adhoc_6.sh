@@ -1,0 +1,1 @@
+ansible nodos -m lineinfile -a "path='/etc/sudoers' state='present' insertafter='root ALL=(ALL:ALL) ALL' line='ansible  ALL=(ALL)   NOPASSWD: ALL' "

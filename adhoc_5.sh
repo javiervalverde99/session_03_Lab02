@@ -1,0 +1,1 @@
+ansible nodos -m user -a "name='ansible' uid=3000 comment='user Ansible' state=present"
